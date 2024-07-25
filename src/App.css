@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(14, 14, 27);
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px;
+}
+span {
+  color: royalblue;
+}
+
+input {
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 7px;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: royalblue;
+}
+
+.task-list {
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(189, 226, 228, 0.099);
+  color: #fff;
+  font-size: large;
+  flex-direction: column;
+  font-size: 28px;
+}
+
+li {
+  overflow-wrap: anywhere;
+  flex: 1;
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: rgb(224, 62, 33);
+}
+
+.edit-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: rgb(251, 251, 10);
+}
